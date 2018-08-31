@@ -1,0 +1,11 @@
+<suite name="mysuite">
+<listeners>
+	<listener class-name="analysier.MyTranformer"/>
+</listeners>
+<test name="Mytest">
+	<classes>
+		<class name="retrylogicTest.myretrylogicTest"/>
+	</classes>
+
+</test>
+</suite>

@@ -1,0 +1,29 @@
+package JavaBasics;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i[]= new int[4];
+		int count =2;
+		
+		i[0] =20;
+		i[1]=30;
+		i[2]=40;
+		i[3]=50;
+		
+		for (int j=0; j<count; j++ ) {
+			
+			 int temp= i[j];
+			for (int k=0; k<(i.length-1); k++) {
+				 i[k] =i [k + 1];
+				 System.out.println(i[k]);
+			}
+			i[i.length] = temp;
+			System.out.println(i[j]);
+		}
+		
+	}
+
+}

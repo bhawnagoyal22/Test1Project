@@ -1,0 +1,12 @@
+package basicTest;
+
+import org.testng.annotations.Test;
+
+public class gmailopen {
+
+	@Test
+	public void login() {
+		System.out.println("login successfully");
+	}
+	
+}

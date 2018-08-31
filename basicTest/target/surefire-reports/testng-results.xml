@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="43635" started-at="2018-07-20T06:08:04Z" finished-at="2018-07-20T06:08:47Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="15577" started-at="2018-07-20T06:08:04Z" finished-at="2018-07-20T06:08:19Z">
+      <class name="basicTest.gmailTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:basicTest.gmailTest@5ca843]" name="login" duration-ms="15546" started-at="2018-07-20T11:38:04Z" finished-at="2018-07-20T11:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aahana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[garg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- basicTest.gmailTest -->
+    </test> <!-- testngTest -->
+    <test name="testngTest1" duration-ms="27890" started-at="2018-07-20T06:08:19Z" finished-at="2018-07-20T06:08:47Z">
+      <class name="basicTest.dataProviderTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:basicTest.dataProviderTest@136d012]" name="login" duration-ms="13657" started-at="2018-07-20T11:38:19Z" data-provider="serachProvider" finished-at="2018-07-20T11:38:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:basicTest.dataProviderTest@136d012]" name="login" duration-ms="7317" started-at="2018-07-20T11:38:33Z" data-provider="serachProvider" finished-at="2018-07-20T11:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:basicTest.dataProviderTest@136d012]" name="login" duration-ms="6911" started-at="2018-07-20T11:38:40Z" data-provider="serachProvider" finished-at="2018-07-20T11:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- basicTest.dataProviderTest -->
+    </test> <!-- testngTest1 -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>

@@ -1,0 +1,13 @@
+package SimpleTest;
+
+import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class Test1 {
+	@BeforeSuite
+	public void setup {
+		ExtentHtmlReporter testreporter=new ExtentHtmlReporter("extent.html");
+  
+	}
+}

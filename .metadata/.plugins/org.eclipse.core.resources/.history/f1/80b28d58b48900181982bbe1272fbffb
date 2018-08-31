@@ -1,0 +1,22 @@
+package basicTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class gmailTest {	
+		public WebDriver driver=new FirefoxDriver();
+		String url="https://www.facebook.com/";
+	
+		@Test
+		public void login() {
+			System.out.println("login successfull 55y");
+			
+			driver.manage().window().maximize();
+			driver.get(url);
+			driver.findElement(By.name("firstname")).sendKeys("aahana");
+		
+	}
+
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mysuite]">
+  <listeners>
+    <listener class-name="analysier.MyTranformer"/>
+  </listeners>
+  <test name="Mytest(failed)">
+    <classes>
+      <class name="retrylogicTest.myretrylogicTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- retrylogicTest.myretrylogicTest -->
+    </classes>
+  </test> <!-- Mytest(failed) -->
+</suite> <!-- Failed suite [mysuite] -->

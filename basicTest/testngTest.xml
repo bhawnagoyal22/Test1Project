@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+	  <parameter name="fname" value="aahana" />	
+	   <parameter name="lname" value="garg" />
+		<classes>
+			<class name="basicTest.gmailTest" />
+		</classes>
+	</test>
+	<test name="testngTest1">
+
+		<classes>
+			<class name="basicTest.dataProviderTest" />
+		</classes>
+	</test>
+</suite>
